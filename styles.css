@@ -1,6 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(248, 255, 119);
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+  }
+
 .split-box {
-    background-color: antiquewhite;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(255, 249, 198);
     margin: 20px;
-    width: 30vw;
-    height: 50vh;
+    width: 40vw;
+    height: 60vh;
+    border-radius: 25px;
+    align-items: center;
+  
 }
+
+
